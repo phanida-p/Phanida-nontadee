@@ -1,0 +1,104 @@
+{
+  "id": "765f9cf3-ea54-4b6b-b618-b2acdc71acbe",
+  "name": "Choose Estimate Diabetes",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "type": "image",
+              "originalContentUrl": "https://res.cloudinary.com/z1ymbh7g/image/upload/v1790250809/19_kigodx.png",
+              "previewImageUrl": "https://res.cloudinary.com/z1ymbh7g/image/upload/v1790250809/19_kigodx.png"
+            }
+          }
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "ประเมินอาการของโรคเบาหวาน\n🟢 ลักษณะอาการที่ไม่รุนแรง ดูแลและปรับพฤติกรรมตนเองได้\n• หิวน้ำบ่อย ปัสสาวะบ่อยโดยเฉพาะตอนกลางคืน หิวบ่อย กินเก่งแต่น้ำหนักลดลงเล็กน้อย น้ำหนักตัวลดโดยไม่ทราบสาเหตุ ปากแห้ง ผิวแห้ง คันตามตัว\n• เริ่มมีอาการมือสั่น ใจสั่น เหงื่อออก ตัวเย็น รู้สึกหิวจัด หงุดหงิด หรือเวียนศีรษะเล็กน้อย แต่ยังรู้สึกตัวดีและกลืนอาหารได้\n• ห้ามหยุดยา หรือปรับขนาดยาเอง และหมั่นตรวจวัดระดับน้ำตาลปลายนิ้วจดบันทึกไว้"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "🔴 ลักษณะอาการที่รุนแรงควรไปพบแพทย์\n• หอบเหนื่อย หายใจลึกและเร็ว หายใจมีกลิ่นหอมหวาน\n• คลื่นไส้ อาเจียน รุนแรง ท้องผูก ปวดท้องรุนแรง ทานหรือดื่มอะไรไม่ได้เลย\n• ปัสสาวะบ่อยและปริมาณมาก ปัสสาวะแสบขัด\n• ซึมลง สับสน มึนงง ปลุกตอบสนองช้า หรือหมดสติ\n• มีอาการชักเกร็ง สับสนรุนแรง พูดไม่รู้เรื่อง หรือ หมดสติไปเลย\n• แผลที่เท้าอักเสบ แผลมีลักษณะบวม มีหนอง แผลเริ่มมีสีดำ มีกลิ่นเหม็น\n• ไข้สูงหนาวสั่น\n• ตาพร่ามัวลงเฉียบพลัน หรือมองเห็นภาพมืดลงฉับพลัน\n📞โทรสายด่วนโรงพยาบาลและเหตุฉุกเฉิน 1669"
+          ]
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "template": {
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "ตอบแบบสอบถาม",
+                    "uri": "https://docs.google.com/forms/d/e/1FAIpQLSeMfrKH71lyERbOSns5c4094cwewXT0upBQaHcJ7lAEatX8pQ/viewform?usp=header"
+                  }
+                ],
+                "type": "buttons",
+                "text": "ขอบคุณที่ใช้บริการแชทบอทค่ะ 🙏\nหากต้องการแนะนำเพิ่มเติม สามารถทำแบบสอบถามเพื่อประเมินความพึงพอใจได้ค่ะ"
+              },
+              "type": "template",
+              "altText": "แบบสอบถามความพึงพอใจต่อแชทบอท NCDs"
+            }
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ประเมินอาการโรคเบาหวาน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4b27c1cd-28b3-455a-96e8-13bab3c19b4e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เลือกประเมินอาการโรคเบาหวาน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f2dc0100-0009-4d95-be2d-906b410799ce",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

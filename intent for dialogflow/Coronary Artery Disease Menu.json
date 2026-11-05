@@ -1,0 +1,90 @@
+{
+  "id": "050e09a5-bff5-4cd0-aa87-d7c3e948b0d6",
+  "name": "Coronary Artery Disease Menu",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "template": {
+                "actions": [
+                  {
+                    "text": "เลือกคำแนะนำโรคหัวใจขาดเลือด",
+                    "label": "📖 คำแนะนำเบื้องต้น",
+                    "type": "message"
+                  },
+                  {
+                    "type": "message",
+                    "label": "🩺ประเมินอาการ",
+                    "text": "เลือกประเมินอาการโรคหัวใจขาดเลือด"
+                  },
+                  {
+                    "text": "โรคหัวใจขาดเลือดเกิดอาการรุนแรง",
+                    "label": "🚨อาการรุนแรง",
+                    "type": "message"
+                  }
+                ],
+                "text": "ต้องการข้อมูลเกี่ยวกับโรคนี้ด้านใดคะ?",
+                "title": "โรคหัวใจขาดเลือด",
+                "type": "buttons"
+              },
+              "altText": "เลือกบริการเกี่ยวกับโรคหัวใจขาดเลือด",
+              "type": "template"
+            }
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หัวใจขาดเลือด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "72243733-f947-4e24-a279-56b1f773286d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "โรคหัวใจขาดเลือด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d20cc2d6-b53a-4e0b-8469-1bd31137a4a1",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

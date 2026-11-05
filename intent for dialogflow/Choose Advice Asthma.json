@@ -1,0 +1,104 @@
+{
+  "id": "19725e26-3ea3-4811-b6c8-fcb97fee2dfa",
+  "name": "Choose Advice Asthma",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "type": "image",
+              "originalContentUrl": "https://res.cloudinary.com/z1ymbh7g/image/upload/v1790250732/1_lbmco9.png",
+              "previewImageUrl": "https://res.cloudinary.com/z1ymbh7g/image/upload/v1790250732/1_lbmco9.png"
+            }
+          }
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "✅ วิธีการรักษาและการดูแลตัวเองเบื้องต้นสำหรับผู้ป่วยโรคหอบหืด\n• การใช้ยาพ่นตามที่แพทย์สั่ง\n• หลีกเลี่ยงปัจจัยกระตุ้น สังเกตว่าอะไรที่ทำให้ไอหรือหอบ เช่น ฝุ่น ควันบุหรี่ ขนสัตว์ เกสรดอกไม้ หรือการเปลี่ยนแปลงของอากาศ"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "⚠️ อาการผิดปกติที่ควรพบแพทย์ทันที\n• หอบรุนแรงจนพูดไม่ได้\n• ยาพ่นฉุกเฉินไม่ได้ผล\n• ริมฝีปาก เล็บ หรือปลายมือปลายเท้ามีสีเขียวคล้ำ\n• ตื่นกลางดึกเพราะอาการไอ หอบ หรือแน่นหน้าอก\n• เป็นหวัดแล้วอาการหอบกำเริบทุกครั้ง หรือเสมหะเปลี่ยนสีเป็นเขียว หรือเหลือง\n📞 สายด่วนโรงพยาบาลและเหตุฉุกเฉินทางการแพทย์โทร 1669"
+          ]
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "template": {
+                "text": "ขอบคุณที่ใช้บริการแชทบอทค่ะ 🙏\nหากต้องการแนะนำเพิ่มเติม สามารถทำแบบสอบถามเพื่อประเมินความพึงพอใจได้ค่ะ",
+                "type": "buttons",
+                "actions": [
+                  {
+                    "label": "ตอบแบบสอบถาม",
+                    "uri": "https://docs.google.com/forms/d/e/1FAIpQLSeMfrKH71lyERbOSns5c4094cwewXT0upBQaHcJ7lAEatX8pQ/viewform?usp=header",
+                    "type": "uri"
+                  }
+                ]
+              },
+              "altText": "แบบสอบถามความพึงพอใจต่อแชทบอท NCDs",
+              "type": "template"
+            }
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "คำแนะนำโรคหอบหืด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ac99d6e3-683c-417a-9a80-47de79132948",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เลือกคำแนะนำโรคหอบหืด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c4820215-16f5-493f-83a7-44822272b0fd",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

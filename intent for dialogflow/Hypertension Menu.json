@@ -1,0 +1,102 @@
+{
+  "id": "25a82e3c-79df-4eb0-b996-384675108957",
+  "name": "Hypertension Menu",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "altText": "เลือกบริการเกี่ยวกับโรคควาดันโลหิตสูง",
+              "type": "template",
+              "template": {
+                "type": "buttons",
+                "title": "โรคความดันโลหิตสูง",
+                "actions": [
+                  {
+                    "text": "เลือกคำแนะนำโรคความดันโลหิตสูง",
+                    "label": "📖 คำแนะนำเบื้องต้น",
+                    "type": "message"
+                  },
+                  {
+                    "text": "เลือกประเมินอาการโรคความดันโลหิตสูง",
+                    "type": "message",
+                    "label": "🩺ประเมินอาการ"
+                  },
+                  {
+                    "text": "โรคควาดันโลหิตสูงเกิดอาการรุนแรง",
+                    "label": "🚨อาการรุนแรง",
+                    "type": "message"
+                  }
+                ],
+                "text": "ต้องการข้อมูลเกี่ยวกับโรคนี้ด้านใดคะ?"
+              }
+            }
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ความดันสูง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7e7fbab1-43f8-48fa-9ca3-8688e9fa11da",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ความดันโลหิตสูง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ee39f457-069b-4e6f-a871-394848c92145",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "โรคความดันโลหิตสูง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "57793958-d71c-4a5c-af75-341c2e2f2d4a",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

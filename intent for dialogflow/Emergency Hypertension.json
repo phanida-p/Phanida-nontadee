@@ -1,0 +1,178 @@
+{
+  "id": "ec5f78de-d52d-4cdd-80ac-a90727a0d100",
+  "name": "Emergency Hypertension",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "emergency"
+  ],
+  "contexts": [
+    "emergency"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "previewImageUrl": "https://res.cloudinary.com/z1ymbh7g/image/upload/v1790250754/13_tpyu5s.png",
+              "type": "image",
+              "originalContentUrl": "https://res.cloudinary.com/z1ymbh7g/image/upload/v1790250754/13_tpyu5s.png"
+            }
+          }
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "💊 คำแนะนำเมื่อเกิดอาการรุนแรงสำหรับโรคความดันโลหิตสูง\n• โทรสายด่วนโรงพยาบาลและเหตุฉุกเฉิน 1669 หรือเบอร์โรงพยาบาลที่ใกล้ที่สุด\n• ไม่ควรขับรถไปเองเนื่องจากผู้ป่วยอาจเกิดภาวะช็อก หรือหมดสติระหว่างทางได้"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "🚑 การดูแลผู้ป่วยระหว่างรอรถพยาบาล\n• จัดให้นอนพักบนเตียงหรือเก้าอี้ โดย ปรับศีรษะและลำตัวสูงขึ้นเล็กน้อย เพื่อช่วยลดความดันในสมองและช่วยให้หายใจสะดวกขึ้น\n• คลายเสื้อผ้า ปลดกระดุมคอเสื้อ เข็มขัด หรือชุดที่รัดแน่นออกทันที\n• คอยพูดคุยด้วย และให้ผู้ป่วยค่อยๆ หายใจเข้า-ออกช้าๆ ลึกๆ\n• ห้ามให้กินหรือดื่มอะไรเด็ดขาด\n• ห้ามทานยาเพิ่มเองโดยไม่ได้สั่งจากแพทย์ ห้ามเบิ้ลยาลดความดันเดิมที่มีอยู่ หรือนำยาของผู้อื่นมาให้กินเด็ดขาด เว้นแต่จะได้รับคำแนะนำโดยตรงจากแพทย์หรือเจ้าหน้าที่สายด่วน 1669\n• หากผู้ป่วยหยุดหายใจให้เริ่มปั๊มหัวใจ (CPR) ทันทีตามคำแนะนำของเจ้าหน้าที่ 1669"
+          ]
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "type": "template",
+              "altText": "แบบสอบถามความพึงพอใจต่อแชทบอท NCDs",
+              "template": {
+                "actions": [
+                  {
+                    "uri": "https://docs.google.com/forms/d/e/1FAIpQLSeMfrKH71lyERbOSns5c4094cwewXT0upBQaHcJ7lAEatX8pQ/viewform?usp=header",
+                    "label": "ตอบแบบสอบถาม",
+                    "type": "uri"
+                  }
+                ],
+                "text": "ขอบคุณที่ใช้บริการแชทบอทค่ะ 🙏\nหากต้องการแนะนำเพิ่มเติม สามารถทำแบบสอบถามเพื่อประเมินความพึงพอใจได้ค่ะ",
+                "type": "buttons"
+              }
+            }
+          }
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "type": "text",
+              "quickReply": {
+                "items": [
+                  {
+                    "action": {
+                      "label": "โรคหัวใจขาดเลือด",
+                      "type": "message",
+                      "text": "โรคหัวใจขาดเลือด"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "text": "โรคหลอดเลือดสมอง",
+                      "type": "message",
+                      "label": "โรคหลอดเลือดสมอง"
+                    }
+                  },
+                  {
+                    "action": {
+                      "text": "โรคความดันโลหิตสูง",
+                      "label": "โรคความดันโลหิตสูง",
+                      "type": "message"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "text": "มะเร็ง",
+                      "label": "มะเร็ง",
+                      "type": "message"
+                    }
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "type": "message",
+                      "label": "เบาหวาน",
+                      "text": "โรคเบาหวาน"
+                    }
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "type": "message",
+                      "label": "โรคปอดอุดกั้นเรื้อรัง",
+                      "text": "โรคปอดอุดกั้นเรื้อรัง"
+                    }
+                  },
+                  {
+                    "action": {
+                      "text": "โรคหอบหืด",
+                      "type": "message",
+                      "label": "โรคหอบหืด"
+                    },
+                    "type": "action"
+                  }
+                ]
+              },
+              "text": "ต้องการทราบคำแนะนำเมื่อเกิดอาการรุนแรงสำหรับโรคอื่นเพิ่มเติมไหมคะ?"
+            }
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ความดันโลหิตสูง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "acb64b74-b8b7-47f7-af1a-b899aa57c8b5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "โรคความดันโลหิตสูง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6d27c440-bae5-4bbc-9b22-73a59d8d50e1",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,90 @@
+{
+  "id": "92f3a9e0-842f-43d0-9b07-21f6f4f4d4d4",
+  "name": "Asthma Menu",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "type": "template",
+              "altText": "เลือกบริการเกี่ยวกับโรคหอบหืด",
+              "template": {
+                "text": "ต้องการข้อมูลเกี่ยวกับโรคนี้ด้านใดคะ?",
+                "title": "โรคหอบหืด",
+                "actions": [
+                  {
+                    "text": "เลือกคำแนะนำโรคหอบหืด",
+                    "label": "📖 คำแนะนำเบื้องต้น",
+                    "type": "message"
+                  },
+                  {
+                    "type": "message",
+                    "text": "เลือกประเมินอาการโรคหอบหืด",
+                    "label": "🩺ประเมินอาการ"
+                  },
+                  {
+                    "text": "โรคหอบหืดเกิดอาการรุนแรง",
+                    "label": "🚨อาการรุนแรง",
+                    "type": "message"
+                  }
+                ],
+                "type": "buttons"
+              }
+            }
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "โรคหอบหืด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "36461e9b-909c-4e29-9c58-0e13fa3ecc56",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หอบหืด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c9fa121b-e43e-4bed-b346-8b1f3dc2fa3d",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}
