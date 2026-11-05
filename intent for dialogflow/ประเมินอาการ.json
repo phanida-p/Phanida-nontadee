@@ -1,0 +1,121 @@
+{
+  "id": "e3093447-3c51-457d-a29b-a7ec2d9a6c79",
+  "name": "ประเมินอาการ",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "estimate",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "type": "text",
+              "quickReply": {
+                "items": [
+                  {
+                    "type": "action",
+                    "action": {
+                      "label": "โรคหัวใจขาดเลือด",
+                      "type": "message",
+                      "text": "โรคหัวใจขาดเลือด"
+                    }
+                  },
+                  {
+                    "action": {
+                      "text": "โรคหลอดเลือดสมอง",
+                      "label": "โรคหลอดเลือดสมอง",
+                      "type": "message"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "text": "โรคความดันโลหิตสูง",
+                      "type": "message",
+                      "label": "โรคความดันโลหิตสูง"
+                    }
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "text": "มะเร็ง",
+                      "label": "มะเร็ง",
+                      "type": "message"
+                    }
+                  },
+                  {
+                    "action": {
+                      "text": "เบาหวาน",
+                      "type": "message",
+                      "label": "เบาหวาน"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "action": {
+                      "type": "message",
+                      "label": "โรคปอดอุดกั้นเรื้อรัง",
+                      "text": "โรคปอดอุดกั้นเรื้อรัง"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "text": "โรคหอบหืด",
+                      "label": "โรคหอบหืด",
+                      "type": "message"
+                    }
+                  }
+                ]
+              },
+              "text": "ต้องการประเมินอาการเกี่ยวกับโรคใด?"
+            }
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ประเมินอาการ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d85e11d6-74aa-45ca-9734-99592be9503c",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

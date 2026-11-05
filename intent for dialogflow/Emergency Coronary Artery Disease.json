@@ -1,0 +1,178 @@
+{
+  "id": "88250dfc-fe3d-40aa-bb55-dfcbd101bcf5",
+  "name": "Emergency Coronary Artery Disease",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "emergency"
+  ],
+  "contexts": [
+    "emergency"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "type": "image",
+              "previewImageUrl": "https://res.cloudinary.com/z1ymbh7g/image/upload/v1790250753/11_yigbwq.png",
+              "originalContentUrl": "https://res.cloudinary.com/z1ymbh7g/image/upload/v1790250753/11_yigbwq.png"
+            }
+          }
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "💊 คำแนะนำเมื่อเกิดอาการรุนแรงสำหรับโรคหัวใจขาดเลือด\n• โทรสายด่วนโรงพยาบาลและเหตุฉุกเฉิน 1669 หรือเบอร์โรงพยาบาลที่ใกล้ที่สุด\n• หลีกเลี่ยงการขับรถไปเอง\n• หยุดทุกกิจกรรมและนั่งพักในท่าที่สบายที่สุด แนะนำให้นั่งพิงเก้าอี้กึ่งนอน เพื่อลดภาระการทำงานของหัวใจ\n• หากเคยได้รับการวินิจฉัยและมียาอมใต้ลิ้นที่แพทย์สั่งไว้ให้ใช้ 1 เม็ดใต้ลิ้น หากผ่านไป 5 นาทียังไม่ดีขึ้น สามารถอมเพิ่มได้อีกไม่เกิน 3 เม็ด และห้ามเคี้ยวหรือกลืน"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "🚑 การดูแลผู้ป่วยระหว่างรอรถพยาบาล\n• ให้นั่งกึ่งนอนพิงเก้าอี้ หรือผนัง งอเข่าเล็กน้อย ห้ามนอนราบ\n• ปลดกระดุมคอเสื้อ เข็มขัด หรือชุดที่รัดแน่นทันที\n• ใช้ยาแอสไพรินต่อเมื่อเจ้าหน้าที่ 1669 แนะนำให้เคี้ยว 1 เม็ดก่อนกลืน ห้ามใช้ถ้าแพ้ยาหรือมีแผลเลือดออก\n• เปิดหน้าต่าง ห้ามคนมุง คอยคุยให้ผู้ป่วยผ่อนคลาย หายใจเข้า-ออกช้าๆ\n• หากหมดสติและหยุดหายใจ ให้จัดนอนราบบนพื้นแข็ง เริ่มปั๊มหัวใจ (CPR) และใช้ AED ทันที"
+          ]
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "type": "template",
+              "template": {
+                "actions": [
+                  {
+                    "type": "uri",
+                    "uri": "https://docs.google.com/forms/d/e/1FAIpQLSeMfrKH71lyERbOSns5c4094cwewXT0upBQaHcJ7lAEatX8pQ/viewform?usp=header",
+                    "label": "ตอบแบบสอบถาม"
+                  }
+                ],
+                "text": "ขอบคุณที่ใช้บริการแชทบอทค่ะ 🙏\nหากต้องการแนะนำเพิ่มเติม สามารถทำแบบสอบถามเพื่อประเมินความพึงพอใจได้ค่ะ",
+                "type": "buttons"
+              },
+              "altText": "แบบสอบถามความพึงพอใจต่อแชทบอท NCDs"
+            }
+          }
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "type": "text",
+              "quickReply": {
+                "items": [
+                  {
+                    "type": "action",
+                    "action": {
+                      "text": "โรคหัวใจขาดเลือด",
+                      "label": "โรคหัวใจขาดเลือด",
+                      "type": "message"
+                    }
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "type": "message",
+                      "label": "โรคหลอดเลือดสมอง",
+                      "text": "โรคหลอดเลือดสมอง"
+                    }
+                  },
+                  {
+                    "action": {
+                      "label": "โรคความดันโลหิตสูง",
+                      "type": "message",
+                      "text": "โรคความดันโลหิตสูง"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "type": "message",
+                      "label": "มะเร็ง",
+                      "text": "มะเร็ง"
+                    }
+                  },
+                  {
+                    "action": {
+                      "type": "message",
+                      "text": "โรคเบาหวาน",
+                      "label": "เบาหวาน"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "action": {
+                      "type": "message",
+                      "text": "โรคปอดอุดกั้นเรื้อรัง",
+                      "label": "โรคปอดอุดกั้นเรื้อรัง"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "action": {
+                      "text": "โรคหอบหืด",
+                      "label": "โรคหอบหืด",
+                      "type": "message"
+                    },
+                    "type": "action"
+                  }
+                ]
+              },
+              "text": "ต้องการทราบคำแนะนำเมื่อเกิดอาการรุนแรงสำหรับโรคอื่นเพิ่มเติมไหมคะ?"
+            }
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "โรคหัวใจขาดเลือด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "04441466-da96-470c-acee-2abe4e9d3562",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หัวใจขาดเลือด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e03e0737-2502-46d1-9022-aaac770e916c",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

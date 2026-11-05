@@ -1,0 +1,178 @@
+{
+  "id": "1265ef4a-5280-4f9c-8189-da0cbca18eff",
+  "name": "Emergency Diabetes",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "emergency"
+  ],
+  "contexts": [
+    "emergency"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "originalContentUrl": "https://res.cloudinary.com/z1ymbh7g/image/upload/v1790250754/12_rmyaeu.png",
+              "type": "image",
+              "previewImageUrl": "https://res.cloudinary.com/z1ymbh7g/image/upload/v1790250754/12_rmyaeu.png"
+            }
+          }
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "💊 คำแนะนำเมื่อเกิดอาการรุนแรงสำหรับโรคเบาหวาน\n• โทรสายด่วนโรงพยาบาลและเหตุฉุกเฉิน 1669 หรือเบอร์โรงพยาบาลที่ใกล้ที่สุด\n• เตรียมข้อมูลและยา รวบรวมยาเบาหวาน ฉีดอินซูลิน ที่ผู้ป่วยใช้อยู่ รวมถึง สมุดบันทึกค่าน้ำตาล หรือเครื่องวัดน้ำตาลปลายนิ้ว(ถ้ามี) เพื่อยื่นให้เจ้าหน้าที่ทันที"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "🚑 การดูแลผู้ป่วยระหว่างรอรถพยาบาล\n• ห้ามป้อนอาหาร น้ำ น้ำตาล หรือยาโดยเด็ดขาด\n• จับผู้ป่วยนอนตะแคงข้างเพื่อป้องกันลิ้นตกไปอุดทางเดินหายใจ และหากมีอาเจียนหรือน้ำลายจะได้ไหลออกมาข้างนอก ไม่สำลักลงปอด\n• หากผู้ป่วยมีอาการชัก ให้ย้ายสิ่งของแข็งหรือคมออกห่างจากตัว ห้ามงัดง้างปาก ห้ามเอาผ้าหรือช้อนใส่ปากผู้ป่วยเด็ดขาด\n• หากผู้ป่วยหยุดหายใจให้เริ่มปั๊มหัวใจ (CPR) ทันทีตามคำแนะนำของเจ้าหน้าที่ 1669"
+          ]
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "type": "template",
+              "altText": "แบบสอบถามความพึงพอใจต่อแชทบอท NCDs",
+              "template": {
+                "actions": [
+                  {
+                    "uri": "https://docs.google.com/forms/d/e/1FAIpQLSeMfrKH71lyERbOSns5c4094cwewXT0upBQaHcJ7lAEatX8pQ/viewform?usp=header",
+                    "label": "ตอบแบบสอบถาม",
+                    "type": "uri"
+                  }
+                ],
+                "text": "ขอบคุณที่ใช้บริการแชทบอทค่ะ 🙏\nหากต้องการแนะนำเพิ่มเติม สามารถทำแบบสอบถามเพื่อประเมินความพึงพอใจได้ค่ะ",
+                "type": "buttons"
+              }
+            }
+          }
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "quickReply": {
+                "items": [
+                  {
+                    "type": "action",
+                    "action": {
+                      "text": "โรคหัวใจขาดเลือด",
+                      "label": "โรคหัวใจขาดเลือด",
+                      "type": "message"
+                    }
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "label": "โรคหลอดเลือดสมอง",
+                      "type": "message",
+                      "text": "โรคหลอดเลือดสมอง"
+                    }
+                  },
+                  {
+                    "action": {
+                      "type": "message",
+                      "label": "โรคความดันโลหิตสูง",
+                      "text": "โรคความดันโลหิตสูง"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "action": {
+                      "label": "มะเร็ง",
+                      "type": "message",
+                      "text": "มะเร็ง"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "action": {
+                      "type": "message",
+                      "text": "โรคเบาหวาน",
+                      "label": "เบาหวาน"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "action": {
+                      "type": "message",
+                      "label": "โรคปอดอุดกั้นเรื้อรัง",
+                      "text": "โรคปอดอุดกั้นเรื้อรัง"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "action": {
+                      "label": "โรคหอบหืด",
+                      "text": "โรคหอบหืด",
+                      "type": "message"
+                    },
+                    "type": "action"
+                  }
+                ]
+              },
+              "text": "ต้องการทราบคำแนะนำเมื่อเกิดอาการรุนแรงสำหรับโรคอื่นเพิ่มเติมไหมคะ?",
+              "type": "text"
+            }
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "โรคเบาหวาน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "09d8036f-f1fe-4dac-8353-c7795389c7a6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เบาหวาน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9e712b26-809c-473e-9d34-dd33fc9a7161",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

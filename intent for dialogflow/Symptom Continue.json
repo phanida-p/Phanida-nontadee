@@ -1,0 +1,3438 @@
+{
+  "id": "2a92321c-2060-4a8e-b683-09ac99451d93",
+  "name": "Symptom Continue",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "symptom-check"
+  ],
+  "contexts": [
+    "symptom-check"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "symptom-check",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หวาน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0386e485-4673-495a-84f5-a57478648899",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หอม",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "014bf990-0137-4689-9d60-0c103af641f9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ฉี่",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1c0aa7db-6f0b-415e-8051-9711fa2211ae",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ปวดเยี่ยว",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fb9a6207-2264-4a1d-8da0-934b7e3ba16a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เยี่ยว",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f90bcffb-6f32-44dc-8585-e64360ca5ea7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ปัดสาวะ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cbbeb276-7152-434c-a6df-c11e666ff17e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ปัสสาวะ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d05f059b-d12c-40c9-ba7b-67381e33b3e8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "พูด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "559fcb92-fc59-4f4b-ae91-83c2dc1a6f00",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เบลอ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "07b17e4c-1f39-4e0e-83cc-bb40b0dea9b9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ภาพเบลอ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5c6f543d-87b3-4ed7-9d0f-26582bfabb19",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เบอ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "892489f7-ae1f-4c45-9815-de0e33589259",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ก้อนเเข็ง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a09b8564-fe91-4d7f-a123-435285803520",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เเข็ง",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "d9fd173a-d394-49f7-845d-561b9735f241",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "แข็งๆ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "439750e8-a21c-45dc-b468-625a810ca99b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ก้อนแข็ง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "88bc1e4c-8133-4fc3-9f6f-e4cf8d88a45b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "คอ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "94945df5-d95e-441f-b312-ec2d0b1c5d2a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ผิวหนัง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7972e271-c8d0-4148-83fb-a398f8e3d8f3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "แข็ง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fb92132e-4b51-43e7-bbdc-ac79a088a93d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ก้อน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "329ddd3f-9b56-4967-9500-688219928422",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ละอองฝุ่น",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b4bc31ee-67ef-4878-802f-459135111fed",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ดอกไม้",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d183d4f9-da57-4cc9-af31-6d7cd8026c7f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เกสร",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8daf0b48-6582-450d-8b90-867ebea7dce5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "สูดดม",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "948c1211-1dab-4cdf-b293-b6b9f05b246e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "พ่น",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0ae2d557-b0d0-471f-85de-e7efc721135f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ยา",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "89167b0f-958c-4be5-b961-acc2079f4545",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ยาพ้น",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "80973a82-e148-4921-98ba-d47b3ee9c9c0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ยาพ่น",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a12c1973-31fa-4237-8dab-09d1dead0734",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เสียง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7be7b01c-3fbb-4404-a890-33be50a0440c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "วิด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "58a6b96c-a3e7-4b84-be33-2417a0a9e9e8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "วี้ด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bda0a2f0-7259-4ec1-9c03-248722e06b54",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หวิด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c510eb96-0111-4324-8140-ebacfa83ef64",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หวีด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "56426920-8f1b-4256-9ae3-cef1aa5e4c96",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เหลือง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f7535a8f-1526-4dbf-a26b-f2dfb93f725c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "สีเหลือง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "25a29a4f-6311-44a2-9faa-398db365f11e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ใส",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d356cf86-d680-40de-b4b3-be6627855055",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "สีใส",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c94082ff-27f8-4826-a5da-a05e5879c8ed",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เขียว",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f1cca9c6-7948-4cdd-9f03-d8e6c97544b5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "สีเขียว",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b1a6a04c-3d7b-4aad-9c22-2beb4afe5544",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "สีเข้ม",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "081f409d-a29f-40db-bfbe-11924ff861ef",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "สะเหลด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "37bcd49e-2b07-4af3-b711-c797e197cfd3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "สะเหรด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f21e72ac-33fc-4763-a19c-2dabab1c7648",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "สะเลด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "95ad7944-4953-499d-b338-9de0cea2c607",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เสลด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "aac3f286-9fc8-4b5e-8337-b4ad7e18d028",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เสรด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "117adca8-b4cc-42b2-aab4-ecf506ec79ff",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เสมหะ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e1723a3d-fd1a-45bd-8eaa-9e398c9a74a7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เคียว",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dd59f067-6954-4218-b608-ad580b481c96",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เคี้ยว",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a7c3fc29-1a41-4621-82c0-9ad9ad9b5d1d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "กืน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cb887604-ead9-452e-bcb3-93401c76393d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "กรืน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ea9d1abc-031e-44d8-ac83-4e2852d1bc56",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "การกลืน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ba9e39be-f90e-4c28-aba8-40f39ca068fd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "กลืน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d6345941-4262-48e5-a1fb-397fcee65100",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "แขง",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "31c22335-5e69-4726-80a5-9c4b1cc35eb1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ครึ่งสีก",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "868be022-2cb8-4ac7-b894-7687522f0ea7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "คึ่งซีก",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3affd9e8-7b40-4798-85b8-0e3d4f7c5830",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เบี้ยวครึ่งซีก",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5a050590-f45f-46d7-969f-9b9b5be600fb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เบิ้ยว",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "248d45b7-bdca-41e6-bc4a-bc496d5ca316",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เบิยว",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9d542e7d-807a-4eab-958f-6a5e66764294",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เบียว",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fe30b114-2796-4dff-acc2-63f58f8ddc0f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เบี้ยว",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "204ffcce-e558-483f-af6b-93ec72e4a33f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ชาๆ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c11a4efb-ceca-427f-b272-2a2bd8990b82",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ชา",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f15be964-0704-4224-b269-2300e97f40e3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ขัก",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1415b03d-a622-4027-8f51-7bd56897dcf6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ชักเกรง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "54f76e44-5683-43fe-b2ab-b50d6f3ec708",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ชักเกร๊ง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "29f29723-b56e-461d-b2b9-8dc426fc054b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ชักเกง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b01f882c-0e9d-466d-ba8b-957c2dc8f7b3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ชักเกร็ง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fb4d6fa0-7c5b-4dbb-8ca6-b327e983bb25",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ใหย่",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "73bef33f-ac15-47d2-b637-159a9c4fb498",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ไหญ่",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "3cad8682-eac1-4758-9d6e-e26524bfe454",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ใหญ่",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f7408a3e-0f4a-4038-9846-0123337d4f6c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "บวใ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7c1b7e6c-2f95-4726-950d-beef6aad8822",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "บสม",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cb249d5b-179c-48a6-8406-de3fa7c90927",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "บวม",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d360d6c3-79c5-4eb3-ae6e-9d7f2f25caaf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ถ่ายหนัก",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cca62359-5857-4e78-8f72-68d1e05a7e88",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ถาย",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4853acfc-4cc4-46a0-908a-6a41af10b903",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ถ่าย",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6abecf39-76e1-48b2-ad1e-693496f7f202",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อุจจาละ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b701f6df-b91b-4ab6-b815-1ee9920e48a5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อุดจาระ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "66546b92-386c-465e-a817-fcbb41b4ad5c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อุจจาระ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bcd6a5f4-b71b-4805-a717-8ec97d111221",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ขี้เเตก",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "851c2dda-2040-46f8-bffb-706436078a05",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ขี้แตก",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "59b39a11-a021-4299-a026-371b9b03e632",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ขิ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "eb34fad9-bdea-4546-9e47-a91a2f7ad7a4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ขี",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c2cac208-186a-477b-b762-54e7a84f9f51",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ขิ้",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cfaea955-4dff-4fc4-9f5c-8685b956846e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ขี้",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6017b202-4454-4632-9cbf-689d5b46da6f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "จี๋",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6f84a4f2-30e8-4e1e-a27f-b2084cccfaf8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ริน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "55a92621-58e9-41b1-ba63-1491dcd9b420",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ริ้น",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "665efc6b-3c0a-470a-b853-9767407e80e2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ลิน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5ab1df65-cec1-46a2-b487-210c9f1add4a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ลิ้น",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a3715d68-59e9-48f6-8ac2-7462f0e846ad",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "นิว",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "314940d6-c378-43d2-a0b7-ceebf14ded01",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "นิ้ว",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c800b315-ff42-4dfb-89c9-bd3a0dbf7a96",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ปลายนิ้ว",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7cd4dd4c-7106-4cfb-8d5c-bd97f8fd9c1b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เทา",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4c32b5dd-8007-4c0e-bc27-4777d9804121",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เท้า",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "013f0800-bd62-4e19-a26f-712d59e95540",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ปลายเท้า",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0faeb53f-078b-4cda-a6f2-c959e48e1b44",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ปลาบเท้า",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "27dd98c8-9106-4aef-8002-b5a752f45211",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "มิอ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fb26bf40-39d1-4607-b652-a749311f43c2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "มือ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2ed8c313-104e-4708-8192-fc7b433839b5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ปายมือ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e8ae0a5d-ce14-4106-9625-eee1581dfc8b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ปลาบมือ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0256ef8d-0228-4e4f-a493-ea7cac9cb394",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ปลายมือ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2fe41946-f9f5-4b27-b9ee-449653da9a43",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "น่า",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "89755390-f6b3-4c13-b6c7-13206aabd536",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "น้า",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "60732793-fee9-4796-9bd0-fa2f333172cc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หนา",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "571401d8-9da2-49c4-95e3-fb6646d4562d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ใบหน้า",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dfe0c745-348d-4cb4-a4df-c874b5ac5913",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หน้า",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d86a08f9-0f25-43f7-acad-42dc7b09d8cd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "กาม",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bb8552cc-08ee-4ae8-a283-b37a24a09e7d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "กลาม",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d89c05b2-d11b-4da9-82c0-343d05686463",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "กราม",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "06857450-c4ff-4651-ac4c-eb912bd4d3f2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ลิ้นปี่",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "475958d6-a674-4ae3-ba0c-3506eb197dbf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ลินปี่",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7eadfd86-e1d2-4885-af52-a6c43487c237",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ลิ้นปิ่",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ba0a2339-bef1-4276-a9ae-7688593d34fe",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ออกสิเจน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d1d37f33-b999-4626-9cf1-ef24992be596",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ออกซิเจน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4b2a899d-ebc0-4080-9e4c-a920b40c0b74",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อ่อนเเลง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f463e0c3-1fa2-400d-b6b7-2f894250ef3a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อ่อนแลง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9c001144-5638-4909-89f0-581bc07c3631",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ออนแรง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "54028016-e2c4-408e-96bb-aaaf962f6d2c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อ่อนเเรง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7c3fad90-d880-4066-b2c8-c6cb937ea211",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อ่อนแรง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6fabbca9-72e3-4a08-a965-09e8d401308e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เเดง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "46fe82bd-260f-4f66-a650-54b77974b0ec",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "แดง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9ac399e2-bb67-4b18-acd0-f1b98a1168d6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ดํา",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "343d9d31-ec22-4b0e-8897-589b283f31bc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ดำ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "54044698-f6fa-4dd3-9e10-ec236eb0e12b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "สีสด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f98bdcbe-d810-4ceb-b574-deae7da85052",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "สด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c95f1744-16d7-4a8e-a618-88b800665b4a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เลือดปน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d5e52696-a5b5-4368-be01-d41374ae72e5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หนสว",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "ebd95924-fa9d-47af-b461-bac96191f32a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หนาวสั่น",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6ff1a8f3-06a1-4240-a567-2a18eb95251b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "นาว",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "62d2ddbb-c197-4566-af1a-d2b9bbcf3b6c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หนาว",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "33e5cb28-2903-488a-a4fe-97159d272010",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "มิน",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "769743de-a8c0-41e2-9146-170d16d56adc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "มึย",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "63694f04-657c-4631-94a9-a86ed74168a0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "มึร",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d0c05ad5-11b6-4ab6-918b-dd423999691d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "มีน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f6b9932c-010c-4c83-af8b-79017f13c3f7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "มืน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "37742fa4-d092-48d1-9a10-8e6cffea2892",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "มึน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fb9d823f-2b65-41c6-a88f-93b3e9cdd9e8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ตัวร้น",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "65ddad76-cf25-4daf-af8c-e7f17c44606c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ตัร้อน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "46b29ff4-3364-48fc-b16d-8d2c8589f14f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ตัวร้อย",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1571e1dc-1cbe-4ccc-8cb6-deffe42473a8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ตัวร่อน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7e93dee7-0c31-462b-ae2a-dd4236391228",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ตีวร้อน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5b51bdc6-459f-4777-90de-f552a21482ad",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ตัวร้อน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9a24b48a-a03c-49cf-b1d3-b15dd52d5433",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ละคาย",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fa691868-44c3-4d8c-b05d-a8ab38586eac",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เเพ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "68174a5d-f922-43b6-a3b8-9fc245506d80",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เเพ้",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "10080b82-c960-48f7-b428-58eb4f315171",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ไจ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1f2b2a2c-cb9b-4631-b9aa-87fcd8a5cdfb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ใข",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f6b118ab-c3e8-4c28-9ec1-5fdd87a14aeb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ใข้",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9e6da3ff-5f87-45e2-b6bf-655232e3ecbe",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ไข",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dd937cee-f9e1-4133-9f09-c87cfc4f8872",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ไข้สูง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "34bc407d-7388-4a08-a77f-36488d5b7c87",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ไข้",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "662fb6d2-7244-4974-b822-0c9bda031c2c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ปวดหัส",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "16dc5b93-444d-4f2e-b5ba-58c11598d175",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เล",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "994e75d6-ad64-4042-a1a8-b2245fff3125",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เลือด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "275f41f8-b219-4901-bb29-7c650ff65361",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หายใจลําบาก",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bcf9cb17-e5fb-459f-be04-f8cc2aaff303",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หยใจลำบาก",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dbab25d4-73a3-4639-aa60-214b6666d3de",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หายใจลำบาด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c0b32758-7b9b-4621-b2cf-8cd8a7177ef5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หายใจลาบาก",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3966ee8f-332a-4739-a9c0-7277503bf5bb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หายใจลำบา",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e4894a1b-074e-4209-8cc2-f6b504ef0db3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "แน่นหน้าอก",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "26e39052-7050-4154-b519-f5f1ea5eacff",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เเน่นหน้าอก",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c099d5a5-6d93-4145-9e43-8f48f89c7c35",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "แน่นหนาอก",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "59de1438-7b33-43e4-af6d-7436f8d8ef7f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "แนนหน้าอก",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3247f312-08d5-4ab1-a0ad-ecb7eda21b07",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "แน่นหน้าอ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2797ad8b-4506-4d7a-956e-76db2b77cfa1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ไหล",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fcb41c8e-274a-4ad8-8622-08cd1e2fdbfa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ซี่โคง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "80a77e2e-f97b-442f-97ea-e981493fc49d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "วี่โครง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5d8cd54e-dd1e-4bdf-a378-e16aaada946d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เเข",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9973bea2-302a-4da3-9276-8f3c045839a3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เเขน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e85567a9-c098-4a80-935c-71f5ec53c389",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "แข",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a27e845d-f8db-4a7f-9cca-61ac76ba0a40",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ทอง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1e0a2740-96b8-4599-8dae-deaeb44ec96b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ท้ง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "98416b3d-4010-4d46-914c-f5d04a61c16e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ปก",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c84eda0c-4dd0-43a7-ad63-6baab3b8f060",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "คลิ่นไส้",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "07c5dd96-ffd9-4a0e-9998-581da2654e8b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "คลื่นใส",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c7d700a3-5288-472e-91ec-84c401c589e1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "คลื่นใส้",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "af6fb045-26e0-48d5-a7f1-a20053825e7e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "คลื่นไส",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0a9a018f-2afd-447b-99b9-600d845c6738",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อ้วส",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "578ef0ad-e038-44a7-a7f3-9b0d8be2ac52",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อ้วด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "135bb779-3067-42a6-af9c-6d21b141b963",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อวก",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "210411ab-a1a5-4f15-83a7-fb2c8c236331",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "คลื่นไสอ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c31f8664-1d63-47eb-a362-6bab5b5addec",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "าเจียน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5fae7511-7987-4aea-985e-5e01b45e3440",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อาเจียร",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "11f27919-99f3-4b4c-a56b-8448c08f1a77",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อาเจีน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6c348b3a-60d1-4312-ab36-b9fd63fcc195",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ปดหัว",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "af244b2b-c6a8-44a2-bd44-0fc615a752d4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อาเจยีน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c2de6662-07b0-4cce-9b98-87ace60fe155",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ปวสหัว",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "27c6dc7a-6589-46fe-8a69-fa3626420401",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ปวดห้ว",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "320ec602-aa59-4274-a856-b50a6452e1aa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "วิงเวียน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a8dfa0e9-59b1-40f0-ab63-b9f10d711eb2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "วิงเวียนศรีษะ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "728a9a56-efa8-4a46-b389-4d477cfbe25a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เวียนหัว",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d2bbdf52-7e9b-49b6-813e-0c58a857994e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เวียนหัส",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "52c7555e-e359-48a6-891f-d5f60822fca0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เวียนสีสะ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c75192b2-6321-42d0-a152-400db45c1084",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เวียนศรีษะ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "14405e73-6276-4ef8-81ef-372dbe203e94",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "มองไมชัด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6412c6c7-85b6-4bb7-9b19-625cf15fc649",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "มองไม่ชด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9fc4e7f7-fa25-49cc-8201-9221d8e45483",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "มองไม่ชั",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f2ee4998-7162-4dac-94bd-2c4908a3e969",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "มองไม่ชัดด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3d725fee-1a91-4433-b152-71dec1e13f32",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ไมเห็น",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1c306a37-2f92-449e-86b0-6b9dc9be986f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ไม่เห้น",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "99cb1584-0df6-4dc9-aa73-04e0918ba059",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ไม่เหน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "76f3eca4-4407-4359-8c0a-c9487ae1015f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "สานตา",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "37aa7582-326a-4cf1-b403-7ad1be830d9d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "สายต",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "edec298e-8a53-4569-bc0b-66d0c9b7ee34",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ภาพซ้อร",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8606f937-46ff-453b-a5b7-df2b8637ccf9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ภาพส้อน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "583b6df9-ab68-47a6-870c-844836b60659",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "พาบซ้อน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b54ee6d1-2d58-4637-8f54-ee622a0b4b19",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ภาพซอ้น",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a9f6db8d-9436-4970-9e9e-fc9b70e7074f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ภาพซอน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1bf9eb9e-636e-4800-be37-e9b0b01cfd3b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "วูล",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ddc8a923-9237-4414-bc4f-a7db1665bd63",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "วุบ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "488882c5-9724-4145-b382-a251b385e1df",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "วูป",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f7cd9231-526c-48bd-8d2c-cb3ec45e0142",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หน้ามืด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e6f942c2-b1ea-4ded-a04e-9d831eb4f0d5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หน่ามืด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "55cbe222-4dbc-4780-991e-70d9f0039361",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หน้ามึด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "44abdcdf-4990-44a9-9051-8bfe2966a44c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หมดสะติ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9033610b-706c-4c15-b9d6-dfb112b1dac0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หมดสติิ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7b36cee6-3819-4bb1-bdb6-0f099ca95e2f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อักเสบ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b15827ca-f7ad-48c4-aa2e-a883411a2b72",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อักเส",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "26eec0ad-49fd-40ca-9362-59172c6c42b1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อักเสป",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "aa9f66ad-de6d-4af0-a70e-44e2602671ad",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อัดเสบ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1af4afce-0bbe-4487-af88-91e3cb7af51a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ปวด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b6f28594-e310-4def-a86d-a55cb76b03d2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ปวส",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d1162d14-e67c-4c07-a0e6-3b6d827c8160",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ปว",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "87e97c5b-1ca2-4c7a-8c1e-1d49e06b166a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เเผ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9534ff08-6bae-4ac3-a053-d63f0fdc784a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เเผล",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "674f119e-66f7-4c60-9652-ae19ae98675a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "แผล",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3bee312d-71ee-4c26-9ad9-81d997f2fb73",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "แผ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1814c770-1e33-4073-b390-163de81deaa3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "แผลล",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2f1b8890-e3a2-4741-abc2-07e423eeb771",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ปวสท้อง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cb024b93-af51-45ad-93de-0030e6016fa2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ปวดทอง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2cf0ff0f-b016-4549-ac0a-a55447b95073",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ปวดทอ้ง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "82d916a9-f261-4812-a8e5-561b3ab3df39",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ปดท้อง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5c40775a-f19a-4810-a2e9-d9394c4df84c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ทองเสีย",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "658dd39e-9d10-4f2d-84b4-eb9f6513887f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ท้องเสี",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f3c19d29-30ec-456e-b5ea-757bd5510c24",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ท้องเสีน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f44012b3-40dd-4ebf-ad35-c3c54bd2a08c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หนแง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "57d0c3f5-9ff1-4233-bf8a-604d3490deed",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หนง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dee11e07-f8ae-4260-9eb7-cca7720a6c25",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หนอ ง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0c1d541a-861e-4f8d-838f-4f6002f2f0ce",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หนอ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "77be9f55-876a-4149-a486-000d2018b0a0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ระคานเคือง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "35cdba83-8678-4b0e-ae4e-d94b7bcff37e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ระคายเคืองง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "da9ffa1b-19f4-477b-8038-5750e718033c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ละคายเคือง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1fc68bda-e976-43c4-8dcc-000c6d1790d3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ระคายเคิอง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6fd61b91-37ae-4173-980e-e743fec0b78a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ระคายเคืือง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4ef314a1-d662-4ef0-9b25-2a508935869b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "คั",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9ef487c2-2673-4345-b58f-511539004246",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "คันน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3c097379-94a2-4ce8-98d2-bd4b49be4840",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "แพ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0a5d49a2-9592-4935-810a-133e5b450e86",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "แพ้ๆ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2b505043-74b3-4fd3-9d38-3e9cb72ef8f9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "จา",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "94b6e2ff-916f-47d6-bec2-73d21f2c5ddc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "จามม",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "85f71c57-0c78-4384-8ee1-f64b445b77ca",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ไออ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "209da006-2dbf-4fbf-b7df-7e9af8d5b890",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ใจเต็",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "13fd2a3a-0e94-4426-bb0f-58965f8a57a2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ใจเต้นน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8805edba-fb9b-426b-9881-3d681b41e41f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ใจเตน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b7374338-6201-46db-a968-273f511caff2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ใจสัน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7bfa5ec9-4c83-4d5d-858f-3bf7a7c4146a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ใจสั่นน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "74ff3296-efbd-466d-a40b-9cdaa7acad14",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ใจสั่่น",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0d061db9-ea24-4651-bffd-e523c1a3ffce",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ใจสั่น",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7ffe1567-62f8-49b1-be2e-3c8e32b4d912",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "จาม",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ecccdd6b-2c91-47fa-8c05-910b8a1cd493",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ไอ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c7c8cf7f-a4a0-4f74-811a-5ec4bfb0bda0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เลือดกำเดาไหล",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c20051c4-ada2-4fa8-8a1e-3c1bf1963cde",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "คัน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a685ba4c-4365-45c0-8450-e0e95c7f7a67",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เลือดออก",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "830cc8d8-af73-4327-9e40-df8e223d9258",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หมดสติ",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "517b41d3-c465-4e7a-b6ee-e4553ad177eb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "วูบ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dc399811-6cfb-4786-8563-11eb663b8ec5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ปวดหัว",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4576fe01-efa6-4214-b1b1-5dc2150a925f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เวียนศีรษะ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b1a8e86b-1331-40dc-9692-b58453267c79",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อาเจียน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fffd8066-9745-4f11-853e-bce6b801d504",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "คลื่นไส้",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "0faed088-bfa0-430f-a9a1-06fe7c58401a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หายใจลำบาก",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b78860a8-24e0-4ca2-b5de-39b277ffe66d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หอบ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "11441d48-eb64-41ec-8ef8-5b8193479a16",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อ่อนเพลีย",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b59700ff-7ccc-4745-b68b-e46031b57928",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เหนื่อย",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dd94cf73-6a32-4e9c-8f80-a51aa58bcbad",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หนอง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "60e2c206-ce15-42d8-9a53-e4f21f7afdb6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "มองไม่ชัด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e87d511d-f0d7-4e0c-a2c0-f95c1c8f82f2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ไม่มีค่ะ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7d13daae-1811-4e2b-aec9-e6589bbc9397",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ไม่มีครับ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f29a320f-dd65-4635-9b18-dc42c0075350",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ไม่แล้ว",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3459d346-adcf-419c-9540-6fe8c4800580",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "แค่นี้",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2626f653-0a49-4205-96f7-738947a3e3fd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ครบแล้ว",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e7dbdda9-a433-420d-bfbf-785c9d1dd4ea",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ไม่มีอาการอื่น",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f7ba4142-4ba8-42ab-909e-16143819855e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ไม่มีแล้ว",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "be61f328-0cb8-4d00-b803-d312072300d6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ไม่มี",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2a0183fb-f02b-46bf-b71e-afc8bc5b3533",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

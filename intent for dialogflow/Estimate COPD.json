@@ -1,0 +1,178 @@
+{
+  "id": "e8b5affa-c441-4df3-a094-763e764eb350",
+  "name": "Estimate COPD",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "estimate"
+  ],
+  "contexts": [
+    "estimate"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "type": "image",
+              "originalContentUrl": "https://res.cloudinary.com/z1ymbh7g/image/upload/v1790250806/17_voebpk.png",
+              "previewImageUrl": "https://res.cloudinary.com/z1ymbh7g/image/upload/v1790250806/17_voebpk.png"
+            }
+          }
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "ประเมินอาการของโรคปอดอุดกั้นเรื้อรัง\n🟢 ลักษณะอาการที่ไม่รุนแรง ดูแลและปรับพฤติกรรมตนเองได้\n• เหนื่อยหอบเฉพาะเวลาออกแรงมาก แต่เมื่อหยุดพักแล้วอาการเหนื่อยจะค่อยๆ ดีขึ้น\n• มีอาการไอแบบมีเสมหะมักเป็นช่วงเช้าหลังตื่นนอน เสมหะมีลักษณะขาวใสหรือเหลืองอ่อน ปริมาณไม่มาก\n• ได้ยินเสียงหวีดในปอดบ้างเป็นบางครั้งเมื่อออกแรง\n• ยังทำกิจกรรมประจำวันได้ตามปกติ สามารถอาบน้ำ แต่งตัว เดิน หรือทำงานบ้านเบาๆ ได้โดยไม่เหนื่อยหอบจนต้องหยุดพัก"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "🔴 ลักษณะอาการที่รุนแรงควรไปพบแพทย์\n• เหนื่อยหอบรุนแรงเฉียบพลัน เหนื่อยแม้กระทั่งขณะนั่งพักเฉยๆ พูดยังไม่จบประโยคก็ต้องหยุดถอนหายใจ หรือเหนื่อยจนอาบน้ำแต่งตัวไม่ได้\n• เสมหะมีปริมาณมากขึ้น ข้นเหนียว เปลี่ยนเป็นสีเขียวเข้ม หรือมีเลือดเจือปน\n• ริมฝีปากหรือปลายมือปลายเท้าเขียวคล้ำ\n• พ่นยาขยายหลอดเลือดชนิดออกฤทธิ์เร็วแล้วอาการไม่ดีขึ้น\n• มีไข้สูง หรือมีอาการบวมที่ขาและข้อเท้า\n📞โทรสายด่วนโรงพยาบาลและเหตุฉุกเฉิน 1669"
+          ]
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "type": "template",
+              "template": {
+                "text": "ขอบคุณที่ใช้บริการแชทบอทค่ะ 🙏\nหากต้องการแนะนำเพิ่มเติม สามารถทำแบบสอบถามเพื่อประเมินความพึงพอใจได้ค่ะ",
+                "type": "buttons",
+                "actions": [
+                  {
+                    "type": "uri",
+                    "label": "ตอบแบบสอบถาม",
+                    "uri": "https://docs.google.com/forms/d/e/1FAIpQLSeMfrKH71lyERbOSns5c4094cwewXT0upBQaHcJ7lAEatX8pQ/viewform?usp=header"
+                  }
+                ]
+              },
+              "altText": "แบบสอบถามความพึงพอใจต่อแชทบอท NCDs"
+            }
+          }
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "text": "ต้องการประเมินอาการของโรคอื่นเพิ่มเติมไหมคะ?",
+              "quickReply": {
+                "items": [
+                  {
+                    "type": "action",
+                    "action": {
+                      "type": "message",
+                      "text": "โรคหัวใจขาดเลือด",
+                      "label": "โรคหัวใจขาดเลือด"
+                    }
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "text": "โรคหลอดเลือดสมอง",
+                      "label": "โรคหลอดเลือดสมอง",
+                      "type": "message"
+                    }
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "text": "โรคความดันโลหิตสูง",
+                      "type": "message",
+                      "label": "โรคความดันโลหิตสูง"
+                    }
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "text": "มะเร็ง",
+                      "label": "มะเร็ง",
+                      "type": "message"
+                    }
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "text": "โรคเบาหวาน",
+                      "label": "เบาหวาน",
+                      "type": "message"
+                    }
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "text": "โรคปอดอุดกั้นเรื้อรัง",
+                      "type": "message",
+                      "label": "โรคปอดอุดกั้นเรื้อรัง"
+                    }
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "type": "message",
+                      "label": "โรคหอบหืด",
+                      "text": "โรคหอบหืด"
+                    }
+                  }
+                ]
+              },
+              "type": "text"
+            }
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ปอดอุดกั้นเรื้อรัง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "faa39f34-aa3a-4101-9bf9-6a3a5ad373a5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "โรคปอดอุดกั้นเรื้อรัง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d6ff7608-8c1c-468b-acd9-9e5e809f2475",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

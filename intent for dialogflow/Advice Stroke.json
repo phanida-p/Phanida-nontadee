@@ -1,0 +1,178 @@
+{
+  "id": "6ac62ce6-1a45-42c8-9feb-390b1437a2c5",
+  "name": "Advice Stroke",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "advice"
+  ],
+  "contexts": [
+    "advice"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "previewImageUrl": "https://res.cloudinary.com/z1ymbh7g/image/upload/v1790250736/7_lpxcps.png",
+              "originalContentUrl": "https://res.cloudinary.com/z1ymbh7g/image/upload/v1790250736/7_lpxcps.png",
+              "type": "image"
+            }
+          }
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "✅ วิธีการรักษาและการดูแลตัวเองเบื้องต้นสำหรับผู้ป่วยโรคหลอดเลือดสมอง\n- ผู้ป่วยจำเป็นต้องรับประทานยาตามที่แพทย์สั่งอย่างต่อเนื่อง ห้ามปรับยาหรือหยุดยาเองเด็ดขาด\n- ปรับอาหาร เน้นอาหารจืด เพื่อคุมความดัน และเลี่ยงไขมันอิ่มตัว เปลี่ยนมาทานปลา ผัก\n- ออกกำลังกาย ทำตามคำแนะนำของแพทย์นักกายภาพบำบัด อย่างน้อยวันละ 30 นาที\n- งดสูบบุหรี่และจำกัดแอลกอฮอล์"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "⚠️ อาการผิดปกติที่ควรพบแพทย์ทันที\n- ปากเบี้ยว ยิ้มแล้วมุมปากตก หรือหน้าชาครึ่งซีก\n- แขนขาอ่อนแรง ยกไม่ขึ้น หรือเดินเซ ทรงตัวไม่อยู่กะทันหัน\n- พูดไม่ชัด ลิ้นแข็ง พูดไม่ออก หรือสับสนภาษา สื่อสารกับคนรอบข้างไม่รู้เรื่อง\n- ตาพร่ามัว มองเห็นภาพซ้อน หรือตาบอดไปวูบหนึ่ง\n- ปวดศีรษะอย่างรุนแรงแบบที่ไม่เคยเป็นมาก่อน หรือมีอาการอาเจียนพุ่ง\n📞 สายด่วนโรงพยาบาลและเหตุฉุกเฉินทางการแพทย์โทร 1669"
+          ]
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "altText": "แบบสอบถามความพึงพอใจต่อแชทบอท NCDs",
+              "template": {
+                "actions": [
+                  {
+                    "uri": "https://docs.google.com/forms/d/e/1FAIpQLSeMfrKH71lyERbOSns5c4094cwewXT0upBQaHcJ7lAEatX8pQ/viewform?usp=header",
+                    "type": "uri",
+                    "label": "ตอบแบบสอบถาม"
+                  }
+                ],
+                "text": "ขอบคุณที่ใช้บริการแชทบอทค่ะ 🙏\nหากต้องการแนะนำเพิ่มเติม สามารถทำแบบสอบถามเพื่อประเมินความพึงพอใจได้ค่ะ",
+                "type": "buttons"
+              },
+              "type": "template"
+            }
+          }
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "text": "ต้องการทราบวิธีการรักษาและการดูแลตัวเองเบื้องต้นสำหรับโรคอื่นเพิ่มเติมไหมคะ?",
+              "quickReply": {
+                "items": [
+                  {
+                    "action": {
+                      "label": "โรคหัวใจขาดเลือด",
+                      "type": "message",
+                      "text": "โรคหัวใจขาดเลือด"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "label": "โรคหลอดเลือดสมอง",
+                      "type": "message",
+                      "text": "โรคหลอดเลือดสมอง"
+                    }
+                  },
+                  {
+                    "action": {
+                      "label": "โรคความดันโลหิตสูง",
+                      "text": "โรคความดันโลหิตสูง",
+                      "type": "message"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "action": {
+                      "text": "มะเร็ง",
+                      "label": "มะเร็ง",
+                      "type": "message"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "text": "โรคเบาหวาน",
+                      "type": "message",
+                      "label": "เบาหวาน"
+                    }
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "text": "โรคปอดอุดกั้นเรื้อรัง",
+                      "type": "message",
+                      "label": "โรคปอดอุดกั้นเรื้อรัง"
+                    }
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "type": "message",
+                      "text": "โรคหอบหืด",
+                      "label": "โรคหอบหืด"
+                    }
+                  }
+                ]
+              },
+              "type": "text"
+            }
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หลอดเลือดสมอง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e5dfbfb3-0c70-49e5-9f3d-03aebbc9eb8b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "โรคหลอดเลือดสมอง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3326f0d9-9ab0-40c0-bc23-3812b9659223",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

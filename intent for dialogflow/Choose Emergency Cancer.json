@@ -1,0 +1,130 @@
+{
+  "id": "b200ccbc-6786-47f6-8044-c4558804cced",
+  "name": "Choose Emergency Cancer",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "originalContentUrl": "https://res.cloudinary.com/z1ymbh7g/image/upload/v1790250758/9_pyxcho.png",
+              "previewImageUrl": "https://res.cloudinary.com/z1ymbh7g/image/upload/v1791628461/9_l0l26s.png",
+              "type": "image"
+            }
+          }
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "💊 คำแนะนำเมื่อเกิดอาการรุนแรงสำหรับโรคมะเร็ง\n• โทรสายด่วนโรงพยาบาลและเหตุฉุกเฉิน 1669 หรือเบอร์โรงพยาบาลที่ใกล้ที่สุด\n• แจ้งข้อมูลสำคัญแก่เจ้าหน้าที่ ระบุชนิดมะเร็ง แจ้งว่าผู้ป่วยกำลังได้รับเคมีบำบัด หรือฉายแสงอยู่หรือไม่ และแจ้งอาการฉุกเฉินที่เป็น เช่น ไข้สูงหนาวสั่น เลือดออกไม่หยุด ชา ขาอ่อนแรง หรือซึมลง\n• เตรียมบัตรประวัติผู้ป่วยมะเร็ง ใบนัด ยาประจำตัวทั้งหมดที่ผู้ป่วยทานอยู่ และผลเลือดล่าสุด"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "🚑 การดูแลผู้ป่วยระหว่างรอรถพยาบาล\nกรณีที่ 1 มีไข้สูง หนาวสั่น\n• ให้ผู้ป่วยห่มผ้าให้ร่างกายอบอุ่นหากมีอาการหนาวสั่น\n• ห้ามให้ยาลดไข้เองโดยเด็ดขาด ให้รอคำสั่งจากแพทย์หรือเจ้าหน้าที่ 1669 เท่านั้น\n• หากตัวร้อนจัด ใช้ผ้าชุบน้ำอุ่น เช็ดซอกคอ ข้อพับ และหน้าอก"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "กรณีที่ 2 เลือดออกไม่หยุด\n• ใช้ผ้าสะอาดกดลงบนจุดที่เลือดออกโดยตรงและกดแน่นๆ ค้างไว้\n• หากเลือดออกในปากหรือเลือดกำเดาไหล ให้นั่งก้มหน้าเล็กน้อยห้ามแหงนหน้า\n• หากถ่ายหรืออาเจียนเป็นเลือด ให้นอนตะแคงข้างเพื่อป้องกันการสำลัก"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "กรณีที่ 3 ซึมลง สับสน ชัก หรือหมดสติ\n• จัดให้นอนตะแคงข้าง\n• ย้ายสิ่งของแข็งหรือคมออกห่างจากตัวผู้ป่วยเพื่อป้องกันบาดเจ็บหากมีอาการชัก\n• ห้ามงัดง้างปาก ห้ามนำสิ่งของใดๆ ใส่เข้าไปในปากผู้ป่วยเด็ดขาด\n• หากหยุดหายใจให้เริ่มทำการปั๊มหัวใจ (CPR) ทันทีตามคำแนะนำของเจ้าหน้าที่ 1669"
+          ]
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "type": "template",
+              "altText": "แบบสอบถามความพึงพอใจต่อแชทบอท NCDs",
+              "template": {
+                "text": "ขอบคุณที่ใช้บริการแชทบอทค่ะ 🙏\nหากต้องการแนะนำเพิ่มเติม สามารถทำแบบสอบถามเพื่อประเมินความพึงพอใจได้ค่ะ",
+                "actions": [
+                  {
+                    "label": "ตอบแบบสอบถาม",
+                    "type": "uri",
+                    "uri": "https://docs.google.com/forms/d/e/1FAIpQLSeMfrKH71lyERbOSns5c4094cwewXT0upBQaHcJ7lAEatX8pQ/viewform?usp=header"
+                  }
+                ],
+                "type": "buttons"
+              }
+            }
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "มะเร็งรุนแรง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4d8e5737-f870-4d33-8bfd-33f5f2d8a9ec",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "โรคมะเร็งเกิดอาการรุนแรง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e56f0daf-23ff-423e-8439-09f8ce751a46",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อาการรุนแรงในโรคมะเร็ง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f429dc19-a7fc-4052-a92b-5f04d2991341",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

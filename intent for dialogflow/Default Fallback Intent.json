@@ -1,0 +1,65 @@
+{
+  "id": "9a7bde27-16db-4f2e-8e6c-fc3cccca2c6a",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": true,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "ขออภัยค่ะ ตอนนี้ระบบให้ข้อมูลได้เฉพาะ 7 โรค รบกวนให้ข้อมูลเพิ่มเติมเกี่ยวกับลักษณะผิดปกติที่แสดงตามร่างกาย เพื่อให้คำแนะนำได้เหมาะสมมากขึ้นค่ะ\n• โรคหัวใจขาดเลือด \n• โรคหลอดเลือดสมอง \n• โรคความดันโลหิตสูง \n• โรคเบาหวาน \n• โรคมะเร็ง \n• โรคปอดอุดกั้นเรื้อรัง \n• โรคหอบหืด \nไม่สามารถให้ข้อมูลโรคอื่นได้ค่ะ กรุณาเลือกโรคจากเมนู หรือพิมพ์ชื่อโรคใหม่อีกครั้งนะคะ"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ความดันต่ำ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d5ad8013-4e1b-4ab6-9643-37fa9ad82449",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "โรคความดันต่ำ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "483aa853-a824-4834-bb60-394a369ce2f7",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

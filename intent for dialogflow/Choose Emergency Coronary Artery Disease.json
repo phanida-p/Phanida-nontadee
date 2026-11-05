@@ -1,0 +1,116 @@
+{
+  "id": "cb9127b0-01e7-423b-83a3-3d4952369ee4",
+  "name": "Choose Emergency Coronary Artery Disease",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "originalContentUrl": "https://res.cloudinary.com/z1ymbh7g/image/upload/v1790250753/11_yigbwq.png",
+              "previewImageUrl": "https://res.cloudinary.com/z1ymbh7g/image/upload/v1790250753/11_yigbwq.png",
+              "type": "image"
+            }
+          }
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "💊 คำแนะนำเมื่อเกิดอาการรุนแรงสำหรับโรคหัวใจขาดเลือด\n• โทรสายด่วนโรงพยาบาลและเหตุฉุกเฉิน 1669 หรือเบอร์โรงพยาบาลที่ใกล้ที่สุด\n• หลีกเลี่ยงการขับรถไปเอง\n• หยุดทุกกิจกรรมและนั่งพักในท่าที่สบายที่สุด แนะนำให้นั่งพิงเก้าอี้กึ่งนอน เพื่อลดภาระการทำงานของหัวใจ\n• หากเคยได้รับการวินิจฉัยและมียาอมใต้ลิ้นที่แพทย์สั่งไว้ให้ใช้ 1 เม็ดใต้ลิ้น หากผ่านไป 5 นาทียังไม่ดีขึ้น สามารถอมเพิ่มได้อีกไม่เกิน 3 เม็ด และห้ามเคี้ยวหรือกลืน"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "🚑 การดูแลผู้ป่วยระหว่างรอรถพยาบาล\n• ให้นั่งกึ่งนอนพิงเก้าอี้ หรือผนัง งอเข่าเล็กน้อย ห้ามนอนราบ\n• ปลดกระดุมคอเสื้อ เข็มขัด หรือชุดที่รัดแน่นทันที\n• ใช้ยาแอสไพรินต่อเมื่อเจ้าหน้าที่ 1669 แนะนำให้เคี้ยว 1 เม็ดก่อนกลืน ห้ามใช้ถ้าแพ้ยาหรือมีแผลเลือดออก\n• เปิดหน้าต่าง ห้ามคนมุง คอยคุยให้ผู้ป่วยผ่อนคลาย หายใจเข้า-ออกช้าๆ\n• หากหมดสติและหยุดหายใจ ให้จัดนอนราบบนพื้นแข็ง เริ่มปั๊มหัวใจ (CPR) และใช้ AED ทันที"
+          ]
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "template": {
+                "actions": [
+                  {
+                    "label": "ตอบแบบสอบถาม",
+                    "type": "uri",
+                    "uri": "https://docs.google.com/forms/d/e/1FAIpQLSeMfrKH71lyERbOSns5c4094cwewXT0upBQaHcJ7lAEatX8pQ/viewform?usp=header"
+                  }
+                ],
+                "type": "buttons",
+                "text": "ขอบคุณที่ใช้บริการแชทบอทค่ะ 🙏\nหากต้องการแนะนำเพิ่มเติม สามารถทำแบบสอบถามเพื่อประเมินความพึงพอใจได้ค่ะ"
+              },
+              "type": "template",
+              "altText": "แบบสอบถามความพึงพอใจต่อแชทบอท NCDs"
+            }
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อาการรุนแรงในโรคหัวใจขาดเลือด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7dbcd708-099c-4bfc-be7a-4bfb4151af4d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "โรคหัวใจขาดเลือดเกิดอาการรุนแรง",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "75dd8839-1a44-4dd3-9d34-f3689c39350c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หัวใจขาดเลือดรุนแรง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "057d6c6c-4fd2-45ff-ba6f-64f1068aff51",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

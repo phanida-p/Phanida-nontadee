@@ -1,0 +1,104 @@
+{
+  "id": "85e65700-d5e0-4a84-aced-6bce70cc7d1c",
+  "name": "Choose Advice Cancer",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "previewImageUrl": "https://res.cloudinary.com/z1ymbh7g/image/upload/v1790250733/2_fg3q5u.png",
+              "originalContentUrl": "https://res.cloudinary.com/z1ymbh7g/image/upload/v1790250733/2_fg3q5u.png",
+              "type": "image"
+            }
+          }
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "✅ วิธีการรักษาและการดูแลตัวเองเบื้องต้นสำหรับผู้ป่วยโรคมะเร็ง\n• งดบุหรี่และแอลกอฮอล์เด็ดขาด\n• หลีกเลี่ยงพื้นที่มลพิษ PM 2.5\n• เลี่ยงอาหารก่อมะเร็ง ตัดขาดจากอาหารแปรรูป อาหารปิ้งย่างที่ไหม้เกรียม และอาหารที่มีเชื้อรา\n• เลี่ยงแสงแดดจัด ผลข้างเคียงจากยาบางชนิดอาจทำให้ผิวหนังไวต่อแสงหรือคล้ำง่ายขึ้น"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "⚠️ อาการผิดปกติที่ควรพบแพทย์ทันที\n• มีก้อนแข็งเกิดขึ้นตามร่างกาย เช่น ที่คอ รักแร้ ขาหนีบ หรือบริเวณแผลเดิม โดยก้อนนั้นมักจะโตขึ้นเรื่อยๆ และกดไม่เจ็บ\n• ปวดเรื้อรังที่ตำแหน่งเดิมหรือตำแหน่งใหม่ โดยเฉพาะอาการปวดกระดูกที่รุนแรงขึ้นในตอนกลางคืน หรือปวดศีรษะรุนแรง ร่วมกับอาการคลื่นไส้อาเจียน\n• น้ำหนักลดผิดปกติภายใน 1 เดือน โดยที่ไม่ได้ตั้งใจคุมอาหาร\n• เลือดออกผิดปกติ เช่น เลือดกำเดาไหลไม่หยุด\n• ถ่ายอุจจาระลำเล็กลง มีเลือดปน หรือท้องผูกสลับท้องเสีย\n• ไข้สูงเกิน 38 องศาเซลเซียส และมีอาการหนาวสั่น \n📞 สายด่วนโรงพยาบาลและเหตุฉุกเฉินทางการแพทย์โทร 1669"
+          ]
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "template": {
+                "type": "buttons",
+                "actions": [
+                  {
+                    "uri": "https://docs.google.com/forms/d/e/1FAIpQLSeMfrKH71lyERbOSns5c4094cwewXT0upBQaHcJ7lAEatX8pQ/viewform?usp=header",
+                    "label": "ตอบแบบสอบถาม",
+                    "type": "uri"
+                  }
+                ],
+                "text": "ขอบคุณที่ใช้บริการแชทบอทค่ะ 🙏\nหากต้องการแนะนำเพิ่มเติม สามารถทำแบบสอบถามเพื่อประเมินความพึงพอใจได้ค่ะ "
+              },
+              "altText": "แบบสอบถามความพึงพอใจต่อแชทบอท NCDs",
+              "type": "template"
+            }
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "คำแนะนำโรคมะเร็ง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f4a47207-7ea6-448d-8331-1a2669907943",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เลือกคำแนะนำโรคมะเร็ง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "24ff7ca9-819f-4110-b167-1e590a84c1f1",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
