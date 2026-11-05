@@ -1,0 +1,102 @@
+{
+  "id": "d706860f-7113-4825-b1c6-54823053caa6",
+  "name": "Stroke Menu",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "template": {
+                "text": "ต้องการข้อมูลเกี่ยวกับโรคนี้ด้านใดคะ?",
+                "actions": [
+                  {
+                    "label": "📖 คำแนะนำเบื้องต้น",
+                    "text": "เลือกคำแนะนำโรคหลอดเลือดสมอง",
+                    "type": "message"
+                  },
+                  {
+                    "type": "message",
+                    "text": "เลือกประเมินอาการโรคหลอดเลือดสมอง",
+                    "label": "🩺ประเมินอาการ"
+                  },
+                  {
+                    "text": "โรคหลอดเลือดสมองเกิดอาการรุนแรง",
+                    "label": "🚨อาการรุนแรง",
+                    "type": "message"
+                  }
+                ],
+                "type": "buttons",
+                "title": "โรคหลอดเลือดสมอง"
+              },
+              "type": "template",
+              "altText": "เลือกบริการเกี่ยวกับโรคหลอดเลือดสมอง"
+            }
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หลอดเลือดสมอง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fcd4cbb6-7802-4a04-bdc1-533ca4540b74",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "สมอง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c3c0d530-709a-4f33-9e73-c181fd0d8038",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "โรคหลอดเลือดสมอง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "817fcd60-dd12-4c6e-8195-7992db984929",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

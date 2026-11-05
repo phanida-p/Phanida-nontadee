@@ -1,0 +1,102 @@
+{
+  "id": "92ad162e-242b-433f-97c9-706e113cc8b5",
+  "name": "COPD Menu",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "type": "template",
+              "altText": "เลือกบริการเกี่ยวกับโรคปอดอุดกั้นเรื้อรัง",
+              "template": {
+                "text": "ต้องการข้อมูลเกี่ยวกับโรคนี้ด้านใดคะ?",
+                "actions": [
+                  {
+                    "text": "เลือกคำแนะนำโรคปอดอุดกั้นเรื้อรัง",
+                    "label": "📖 คำแนะนำเบื้องต้น",
+                    "type": "message"
+                  },
+                  {
+                    "text": "เลือกประเมินอาการโรคปอดอุดกั้นเรื้อรัง",
+                    "label": "🩺ประเมินอาการ",
+                    "type": "message"
+                  },
+                  {
+                    "text": "โรคปอดอุดกั้นเรื้อรังเกิดอาการรุนแรง",
+                    "type": "message",
+                    "label": "🚨อาการรุนแรง"
+                  }
+                ],
+                "title": "โรคปอดอุดกั้นเรื้อรัง",
+                "type": "buttons"
+              }
+            }
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ปอดอุดกั้นเรื้อรัง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2bc8e808-a415-4b21-b10b-35774997a093",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ปอดอุดกั้น",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8bf71076-fd25-467d-a05c-48d2db0a0bd0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "โรคปอดอุดกั้นเรื้อรัง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "22563648-1fd0-4f95-af2e-f1099bc1bf1b",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

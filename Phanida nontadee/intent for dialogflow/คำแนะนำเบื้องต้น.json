@@ -1,0 +1,121 @@
+{
+  "id": "23b1436e-3c5d-47b2-afd9-f88dd0c96513",
+  "name": "คำแนะนำเบื้องต้น",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "advice",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "type": "text",
+              "quickReply": {
+                "items": [
+                  {
+                    "action": {
+                      "text": "โรคหัวใจขาดเลือด",
+                      "type": "message",
+                      "label": "โรคหัวใจขาดเลือด"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "action": {
+                      "text": "โรคหลอดเลือดสมอง",
+                      "type": "message",
+                      "label": "โรคหลอดเลือดสมอง"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "action": {
+                      "type": "message",
+                      "label": "โรคความดันโลหิตสูง",
+                      "text": "โรคความดันโลหิตสูง"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "label": "มะเร็ง",
+                      "type": "message",
+                      "text": "มะเร็ง"
+                    }
+                  },
+                  {
+                    "action": {
+                      "type": "message",
+                      "label": "เบาหวาน",
+                      "text": "เบาหวาน"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "action": {
+                      "type": "message",
+                      "label": "โรคปอดอุดกั้นเรื้อรัง",
+                      "text": "โรคปอดอุดกั้นเรื้อรัง"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "action": {
+                      "text": "โรคหอบหืด",
+                      "label": "โรคหอบหืด",
+                      "type": "message"
+                    },
+                    "type": "action"
+                  }
+                ]
+              },
+              "text": "ต้องการคำแนะนำเกี่ยวกับโรคใด?"
+            }
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "คำแนะนำเบื้องต้น",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e47f3591-02b8-4e8d-89b9-fdf1a4a4a14f",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

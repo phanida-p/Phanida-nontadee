@@ -1,0 +1,175 @@
+{
+  "id": "75d32a0e-84f6-44b2-b616-9185a6f89608",
+  "name": "Review",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "template": {
+                "actions": [
+                  {
+                    "type": "uri",
+                    "uri": "https://docs.google.com/forms/d/e/1FAIpQLSeMfrKH71lyERbOSns5c4094cwewXT0upBQaHcJ7lAEatX8pQ/viewform?usp=header",
+                    "label": "ตอบแบบสอบถาม"
+                  }
+                ],
+                "text": "ขอบคุณที่ใช้บริการแชทบอทค่ะ 🙏\nหากต้องการแนะนำเพิ่มเติม สามารถทำแบบสอบถามเพื่อประเมินความพึงพอใจได้ค่ะ 💗",
+                "type": "buttons"
+              },
+              "altText": "แบบสอบถามความพึงพอใจต่อแชทบอท NCDs",
+              "type": "template"
+            }
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ห่วย",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b3a75b8a-044e-465b-8e63-2edd835b1261",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "โอเค",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e9c05fd8-3388-40e9-a52e-7fd39fc5c02a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "แย่",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "56f0adeb-fb87-42d4-9967-b8936dbe535f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เกือบดี",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1b5a2ef5-2cf3-4914-ab46-1100e746af6b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "พอใช้",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "abe112f8-9028-4c1f-9044-c00d24bc12c5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ไม่ดี",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ef9ac365-e17d-4c7a-a760-4a9281ac6427",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ดี",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9b55a333-3c2e-4468-9cf7-6eedb8d4fc6e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "รีวิว",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "35a600f3-3621-463f-90fa-f74854f3f28b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "review",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3afca53f-b1a8-4df9-83b8-d5996533ec3c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ประเมินความพึงพอใจ",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "cbc7056e-89d7-4b69-be55-a0c80a3d5615",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

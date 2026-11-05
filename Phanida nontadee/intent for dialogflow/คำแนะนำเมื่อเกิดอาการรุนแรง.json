@@ -1,0 +1,157 @@
+{
+  "id": "55bbe92e-3ffe-4d70-9735-c70d1a74f09c",
+  "name": "คำแนะนำเมื่อเกิดอาการรุนแรง",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "emergency",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "type": "text",
+              "text": "ต้องการคำแนะนำเมื่อเกิดอาการรุนแรงในโรคใด?",
+              "quickReply": {
+                "items": [
+                  {
+                    "type": "action",
+                    "action": {
+                      "label": "โรคหัวใจขาดเลือด",
+                      "text": "โรคหัวใจขาดเลือด",
+                      "type": "message"
+                    }
+                  },
+                  {
+                    "action": {
+                      "label": "โรคหลอดเลือดสมอง",
+                      "text": "โรคหลอดเลือดสมอง",
+                      "type": "message"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "label": "โรคความดันโลหิตสูง",
+                      "type": "message",
+                      "text": "โรคความดันโลหิตสูง"
+                    }
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "type": "message",
+                      "label": "มะเร็ง",
+                      "text": "มะเร็ง"
+                    }
+                  },
+                  {
+                    "action": {
+                      "type": "message",
+                      "label": "เบาหวาน",
+                      "text": "เบาหวาน"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "action": {
+                      "text": "โรคปอดอุดกั้นเรื้อรัง",
+                      "type": "message",
+                      "label": "โรคปอดอุดกั้นเรื้อรัง"
+                    },
+                    "type": "action"
+                  },
+                  {
+                    "type": "action",
+                    "action": {
+                      "text": "โรคหอบหืด",
+                      "type": "message",
+                      "label": "โรคหอบหืด"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "คำแนะนำเมื่อเกิดอาการรุนแรง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a4efbbb3-91e3-47e1-868f-965cb80b18a0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ฉุกเฉิน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7c87af66-c711-43e6-847a-69f69491d507",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "รุนแรง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9e87cbd0-9c79-41df-96c2-12ef1fb64235",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อาการรุนแรง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "15e2333c-a595-4cfe-96f5-52fc7fc666ef",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,104 @@
+{
+  "id": "804fe4b2-c74d-4a2e-845d-d87966a99034",
+  "name": "Choose Advice Storke",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "originalContentUrl": "https://res.cloudinary.com/z1ymbh7g/image/upload/v1790250736/7_lpxcps.png",
+              "type": "image",
+              "previewImageUrl": "https://res.cloudinary.com/z1ymbh7g/image/upload/v1790250736/7_lpxcps.png"
+            }
+          }
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "✅ วิธีการรักษาและการดูแลตัวเองเบื้องต้นสำหรับผู้ป่วยโรคหลอดเลือดสมอง\n- ผู้ป่วยจำเป็นต้องรับประทานยาตามที่แพทย์สั่งอย่างต่อเนื่อง ห้ามปรับยาหรือหยุดยาเองเด็ดขาด\n- ปรับอาหาร เน้นอาหารจืด เพื่อคุมความดัน และเลี่ยงไขมันอิ่มตัว เปลี่ยนมาทานปลา ผัก\n- ออกกำลังกาย ทำตามคำแนะนำของแพทย์นักกายภาพบำบัด อย่างน้อยวันละ 30 นาที\n- งดสูบบุหรี่และจำกัดแอลกอฮอล์"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "⚠️ อาการผิดปกติที่ควรพบแพทย์ทันที\n- ปากเบี้ยว ยิ้มแล้วมุมปากตก หรือหน้าชาครึ่งซีก\n- แขนขาอ่อนแรง ยกไม่ขึ้น หรือเดินเซ ทรงตัวไม่อยู่กะทันหัน\n- พูดไม่ชัด ลิ้นแข็ง พูดไม่ออก หรือสับสนภาษา สื่อสารกับคนรอบข้างไม่รู้เรื่อง\n- ตาพร่ามัว มองเห็นภาพซ้อน หรือตาบอดไปวูบหนึ่ง\n- ปวดศีรษะอย่างรุนแรงแบบที่ไม่เคยเป็นมาก่อน หรือมีอาการอาเจียนพุ่ง\n📞 สายด่วนโรงพยาบาลและเหตุฉุกเฉินทางการแพทย์โทร 1669"
+          ]
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "altText": "แบบสอบถามความพึงพอใจต่อแชทบอท NCDs",
+              "template": {
+                "type": "buttons",
+                "actions": [
+                  {
+                    "uri": "https://docs.google.com/forms/d/e/1FAIpQLSeMfrKH71lyERbOSns5c4094cwewXT0upBQaHcJ7lAEatX8pQ/viewform?usp=header",
+                    "label": "ตอบแบบสอบถาม",
+                    "type": "uri"
+                  }
+                ],
+                "text": "ขอบคุณที่ใช้บริการแชทบอทค่ะ 🙏\nหากต้องการแนะนำเพิ่มเติม สามารถทำแบบสอบถามเพื่อประเมินความพึงพอใจได้ค่ะ"
+              },
+              "type": "template"
+            }
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "คำแนะนำโรคหลอดเลือดสมอง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c009ed5f-14cf-4192-8583-423e8d55be13",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เลือกคำแนะนำโรคหลอดเลือดสมอง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "311cdc24-6ead-4bec-9c30-d59242bbc006",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

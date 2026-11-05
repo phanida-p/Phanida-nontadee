@@ -1,0 +1,116 @@
+{
+  "id": "242ab9be-9e43-43b2-a675-2ee5d1e1f3cf",
+  "name": "Choose Emergency COPD",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "previewImageUrl": "https://res.cloudinary.com/z1ymbh7g/image/upload/v1790250758/10_aupx08.png",
+              "type": "image",
+              "originalContentUrl": "https://res.cloudinary.com/z1ymbh7g/image/upload/v1790250758/10_aupx08.png"
+            }
+          }
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "💊 คำแนะนำเมื่อเกิดอาการรุนแรงสำหรับโรคปอดอุดกั้นเรื้อรั้ง\n• โทรสายด่วนโรงพยาบาลและเหตุฉุกเฉิน 1669 หรือเบอร์โรงพยาบาลที่ใกล้ที่สุด\n• แจ้งข้อมูลแก่เจ้าหน้าที่ แจ้งอาการสำคัญ เช่น เหนื่อยหอบรุนแรง พูดไม่ได้ ริมฝีปากเขียว คล้ำ ซึมลง หรือหมดสติ และแจ้งว่าผู้ป่วยมี ถังออกซิเจน หรือเครื่องผลิตออกซิเจนใช้อยู่ที่บ้านหรือไม่ เตรียมเอกสารและยาประจำตัว รวบรวมบัตรประวัติ ยาพ่นทุกชนิดที่ใช้อยู่ และประวัติการรักษาเพื่อยื่นให้เจ้าหน้าที่ทันที"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "🚑 การดูแลผู้ป่วยระหว่างรอรถพยาบาล\n• จัดให้นั่งตัวตรงหรือนั่งโน้มตัวไปข้างหน้า ห้ามให้นอนราบเด็ดขาด\n• หากผู้ป่วยมียาพ่นขยายหลอดเลือดชนิดออกฤทธิ์เร็ว ให้ช่วยผู้ป่วยพ่นยาตามวิธีที่แพทย์เคยแนะนำไว้\n• บอกให้ผู้ป่วยค่อยๆ สูดลมหายใจเข้าทางจมูก แล้วห่อปากผ่อนลมหายใจออกช้าๆทางปาก\n• หากมีเครื่องผลิตออกซิเจนหรือถังออกซิเจน ให้เปิดในระดับต่ำตามที่แพทย์สั่งไว้เท่านั้น มักไม่เกิน 1–2 ลิตร/นาที\n• หากหยุดหายใจให้เริ่มทำการปั๊มหัวใจ (CPR) ทันทีตามคำแนะนำของเจ้าหน้าที่ 1669"
+          ]
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {
+            "line": {
+              "template": {
+                "type": "buttons",
+                "actions": [
+                  {
+                    "uri": "https://docs.google.com/forms/d/e/1FAIpQLSeMfrKH71lyERbOSns5c4094cwewXT0upBQaHcJ7lAEatX8pQ/viewform?usp=header",
+                    "type": "uri",
+                    "label": "ตอบแบบสอบถาม"
+                  }
+                ],
+                "text": "ขอบคุณที่ใช้บริการแชทบอทค่ะ 🙏\nหากต้องการแนะนำเพิ่มเติม สามารถทำแบบสอบถามเพื่อประเมินความพึงพอใจได้ค่ะ"
+              },
+              "altText": "แบบสอบถามความพึงพอใจต่อแชทบอท NCDs",
+              "type": "template"
+            }
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อาการรุนแรงในโรคปอดอุดกั้นเรื้อรัง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "661f5357-1c4a-4594-a86a-943a6f0cc9a5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "โรคปอดอุดกั้นเรื้อรังเกิดอาการรุนแรง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "84f1bcd8-60e8-4d59-902c-77183aa86b35",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ปอดอุดกั้นเรื้อรังรุนแรง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d2b47999-c660-486f-ae60-79e629e75dcc",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

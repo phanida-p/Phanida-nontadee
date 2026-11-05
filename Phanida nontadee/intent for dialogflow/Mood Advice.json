@@ -1,0 +1,324 @@
+{
+  "id": "aa4787a4-7f19-440a-99d7-ba9c16d80b76",
+  "name": "Mood Advice",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "💗คำแนะนำเมื่อรู้สึกว่าอารมณ์ไม่คงที่\n• พักผ่อนให้เพียงพอ และเข้านอนให้เป็นเวลา\n• ออกไปทำกิจกรรมผ่อนคลาย เช่น เดินเล่น ออกกำลังกายเบาๆ ฟังเพลง หรือทำงานอดิเรกที่ชอบ\n• พูดคุยระบายความรู้สึกกับคนที่ไว้ใจ เช่น ครอบครัวหรือเพื่อน\n• หายใจเข้าออกลึกๆ ช้าๆ หรือนั่งสมาธิ เพื่อให้ใจสงบ"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "หากรู้สึกแย่ต่อเนื่องเกิน 2 สัปดาห์ หรือรู้สึกว่าไม่ไหว ควรปรึกษาแพทย์หรือนักจิตวิทยา\n📞 สายด่วนสุขภาพจิต 1323 โทรได้ตลอด 24 ชั่วโมง"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เหงา",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d44c3de7-0ac4-48f5-b258-ee91526e668a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อารมเสีย",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "20dbce93-1846-4f39-b5cb-8c8793331205",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อารมไม่ดี",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d0783585-c40d-4ea3-b469-a5c23c4349c9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อารมณ์ไม่ดี",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c95f16b7-68b8-4a5e-8e1b-aaaf5684d2d8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อารมณ์เสีย",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f78d1505-36d7-4d50-b2db-4df6e978646a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หงุดหงิด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cb323770-156c-4029-86c9-ec66f48e87bd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "สิ้นหวัง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9795dd3c-7a93-490f-8bc9-9db812e6f213",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หมดไฟ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bc726836-a2fb-4a50-8a0c-583c43f0bec4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หมดกำลังใจ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d08c2c5e-40dd-4e6f-a9ed-c527bba9db3f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ท้อแท้",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9ad1a184-3df0-4f09-8b94-7ad7b879b4f0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เคียด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b57c25f4-bb32-438e-97c9-5cfeec81c839",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ความเครียด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "10aa7da4-93ea-482b-829d-46ec8d127620",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เครียด",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a3b4374c-0b20-4aa8-84e9-7508ac4e5cdd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "กังวน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "87794d6b-02ae-422e-841d-9eb8c699546e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "กังวล",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "583b412d-fdd4-40fa-b36f-505b7f2a12f6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "วิตกกังวล",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4b866926-633f-4a6d-88ca-9ab471ff2c02",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หดหู่",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "77ef5abc-a7bb-457b-ae75-480b2fd573cf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "สึมเส้า",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4c82ba39-1adc-4587-816a-04530d7d1a30",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เส้า",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4c9e0d43-5c2e-49d6-b9c9-d11364704f73",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เศรา",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "63d210e6-8ae7-4491-9b6e-1b186530ffe9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เศร้า",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a27e5438-52af-4a93-a391-61fe97d1f126",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ซึมเศรา",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5ca5386a-9979-46d6-9050-46077ca06056",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ซึมเศร้า",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "95e76931-1a31-4221-9f8f-c4a24902eb17",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
